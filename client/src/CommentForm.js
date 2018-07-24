@@ -1,3 +1,4 @@
+// CommentForm.js
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -25,12 +26,12 @@ CommentForm.propTypes = {
   submitComment: PropTypes.func.isRequired,
   handleChangeText: PropTypes.func.isRequired,
   text: PropTypes.string,
-  author: PropTypes.string
+  author: PropTypes.string,
 };
 
 CommentForm.defaultProps = {
   text: '',
-  author: ''
+  author: '',
 };
 
 export default CommentForm;
